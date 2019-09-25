@@ -1,0 +1,17 @@
+#h{
+    color:green;
+}
+.block{
+    width:100vw;
+}
+.big{
+    width:100%;
+}
+.mid{
+    width:50%;
+    min-width:50vw;
+}
+.btn{
+    border-radius:10px;
+    background-color: transparent;
+}

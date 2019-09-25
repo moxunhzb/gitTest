@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    h1{
+        color:blue;
+
+    }
+    #h{
+        color: red;
+    }
+    .h{
+        color: yellow;
+    }
+    </style>
+      <link href="./css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1  id="h" class="h">样式比较</h1>
+    <div id="p">
+        <button id="c" class="btn mid">ret</button>
+    </div>
+    <script>
+    document.getElementById('c').addEventListener("click",function(e){
+        e.stopPropagation()
+        console.log('h1')
+    },false)
+    document.getElementById('p').addEventListener("click",function(e){
+       
+        console.log('p1')
+    },false)
+    </script>
+</body>
+</html>
